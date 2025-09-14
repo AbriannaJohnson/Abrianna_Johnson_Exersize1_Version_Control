@@ -4,7 +4,7 @@
 def get_tickets_from_buyer():
     while True:
         try:
-            num_tickets = int(input('Enter the number of tickets you want to purchase: '))
+            num_tickets = int(input('How many tickets do you want to purchase?: '))
             # Gets an input from the user
             if 1 <= num_tickets <= 4:
                 # Limit the user to up to 4 tickets
