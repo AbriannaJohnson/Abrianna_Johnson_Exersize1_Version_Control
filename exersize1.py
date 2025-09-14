@@ -19,7 +19,7 @@ def sell_tickets():
     total_tickets = 10
     tickets_left = total_tickets
     # The tickets left will equal the total tickets after a user purchases tickets
-    num_buyers = 0
+    num_customers = 0
     # Set an accumulator for number of buyers
     print(f'Total tickets available for pre-sale: {total_tickets}')
     while tickets_left > 0:
@@ -29,13 +29,13 @@ def sell_tickets():
         if tickets_wanted <= tickets_left:
             tickets_left -= tickets_wanted
             # Subtracts the tickets wanted from the total number available
-            num_buyers += 1
+            num_customers += 1
             # Adds 1 to the accumulator
         else:
             print(f'Only {tickets_left} tickets are available')
 
     print('All tickets have been sold!')
-    print(f'Total number of buyers: {num_buyers}')
+    print(f'Total number of buyers: {num_customers}')
 sell_tickets()
 # Start the loop
 
