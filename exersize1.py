@@ -16,7 +16,7 @@ def get_tickets_from_buyer():
 
 
 def sell_tickets():
-    total_tickets = 20
+    total_tickets = 10
     tickets_left = total_tickets
     # The tickets left will equal the total tickets after a user purchases tickets
     num_buyers = 0
