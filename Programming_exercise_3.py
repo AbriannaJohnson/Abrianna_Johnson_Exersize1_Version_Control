@@ -7,9 +7,10 @@
 import functools
 from functools import reduce
 
+# Prompts the user for their monthly expenses and
+# calculates the total and highest and lowest expenses
 def calculate_expenses():
-    # Prompts the user for their monthly expenses and
-    # calculates the total and highest and lowest expenses
+    # Set an accumulator for the expenses
     expenses = []
     print('Enter your monthly expenses')
     print('Type done when finished')
